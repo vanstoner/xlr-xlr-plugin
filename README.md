@@ -24,4 +24,4 @@ The xlr-xlr-plugin is a XL Release plugin that allows to
 
 + Add Users to Template
   * `templateName`: Name of the template to add users to (`string`)
-
+  * `userTeams`:Comma separated, Colon deliminated list of user:team values ('string`)
