@@ -21,3 +21,7 @@ The xlr-xlr-plugin is a XL Release plugin that allows to
 + Create Template
   * `templateName`: Name of the template to create (`string`)
   * `tags`: Comma separated list of tags to associate with this template e.g. tag1,tag2 (`string`)
+
++ Add Users to Template
+  * `templateName`: Name of the template to add users to (`string`)
+
