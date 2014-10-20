@@ -36,6 +36,19 @@
 
        <property name="templateId" category="output"/> 
     </type>
+    
+    <type type="xlr.AddUsersToTemplate" extends="xlrelease.PythonScript">
+       <property name="scriptLocation" default="xlr/AddUsersToTemplate.py" hidden="true" />
+       <property name="iconLocation" default="xlr/xlr.png" hidden="true" />
+       <property name="xlrServer" category="input" label="Server" referenced-type="xlr.Server" kind="ci"/>
+       <property name="username" category="input" label="username" required="true" />
+       <property name="password" password="true" category="input" required="true" />
+
+       <property name="templateName" category="input" label="Template Name" required="true" />
+       <property name="usersAndTeams" category="input" required="false" />
+
+       <property name="templateId" category="output"/>
+    </type>
 
     <type type="xlr.Server" extends="configuration.HttpConnection"/>
 
